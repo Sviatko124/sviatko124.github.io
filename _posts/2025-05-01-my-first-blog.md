@@ -2,6 +2,8 @@
 layout: post
 title: "My First Blog Post"
 date: 2025-05-01
+author: Sviatko124
+tags: 
 ---
 
 ## Welcome to my first blog post!
