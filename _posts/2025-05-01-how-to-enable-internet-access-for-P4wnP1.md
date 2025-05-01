@@ -4,13 +4,12 @@ date: 2025-05-01
 author: Sviatko124
 tags: P4wnP1
 ---
-# How to enable internet access for a P4wnP1 A.L.O.A.
-In this tutorial, I will cover step instructions on how to properly set up DNS resolving, and how to connect your P4wnP1 to the internet. 
+In this tutorial, I will provide step-by-step instructions on how to properly set up DNS resolving and connect your P4wnP1 to the Internet. 
 Due to what this method does, the device's WIFI AP will go down, so it is necessary that you have a data cable so that you can connect to the P4wnP1 through SSH. 
 Note: I am using NightRang3r's P4wnP1 image (https://github.com/NightRang3r/P4wnP1-A.L.O.A.-Payloads), but the following steps should be the same for the regular P4wnP1 A.L.O.A. as well. 
 Note: I'm new to P4wnP1, and the following tutorial was compiled with the help of hours of searching the web. Eventually, I just found what worked for me, but don't think that the following is the only solution. 
 
-# Set wlan0 to managed mode
+## Set wlan0 to managed mode
 This step is important because currently, wlan0 is responsible for handling its WIFI network. However, this is the only wireless interface that can be used to connect to the internet, so we need to change it into managed mode. 
 To do that, run the following:
 
@@ -25,7 +24,7 @@ Now, you can run the `iwconfig` command, and you will see that wlan0 is now in m
 
 
 # Set up DNS
-## Edit resolv.conf
+### Edit resolv.conf
 Open /etc/resolv.conf:
 
 `sudo nano /etc/resolv.conf`
@@ -39,7 +38,7 @@ nameserver 8.8.4.4
 ```
 
 
-## Edit dhcpcd.conf
+### Edit dhcpcd.conf
 Open /etc/dhcpcd.conf:
 
 `sudo nano /etc/dhcpcd.conf`
@@ -67,7 +66,7 @@ If for any reason you need to make changes to the file, run the following comman
 
 
 
-# Connect to WIFI
+## Connect to WIFI
 
 Now you can begin connecting to a WIFI network. For this, you will need a wireless network to connect to, as you will use the network name and password in the following steps. 
 First, create a file in /etc/wpa_supplicant/ called wpa_supplicant.conf
