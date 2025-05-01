@@ -1,4 +1,9 @@
-# How to enable internet access for a P4wnP1 A.L.O.A. + setting up DNS
+---
+layout: default
+author: Sviatko124
+tags: P4wnP1
+---
+# How to enable internet access for a P4wnP1 A.L.O.A.
 In this tutorial, I will cover step instructions on how to properly set up DNS resolving, and how to connect your P4wnP1 to the internet. 
 Due to what this method does, the device's WIFI AP will go down, so it is necessary that you have a data cable so that you can connect to the P4wnP1 through SSH. 
 Note: I am using NightRang3r's P4wnP1 image (https://github.com/NightRang3r/P4wnP1-A.L.O.A.-Payloads), but the following steps should be the same for the regular P4wnP1 A.L.O.A. as well. 
