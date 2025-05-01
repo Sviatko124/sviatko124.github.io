@@ -4,7 +4,7 @@ layout: default
 
 <nav style="margin-bottom: 20px;">
   <a href="/" style="margin-right: 15px;">Home</a>
-  <a href="/about.html" style="margin-right: 15px;">About</a>
+  <a href="/about" style="margin-right: 15px;">About</a>
   <a href="https://github.com/sviatko124" target="_blank">GitHub</a>
 </nav>
 
