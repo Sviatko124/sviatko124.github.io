@@ -1,5 +1,6 @@
 ---
-layout: default
+layout: post
+date: 2025-05-01
 author: Sviatko124
 tags: P4wnP1
 ---
