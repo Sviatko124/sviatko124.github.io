@@ -72,6 +72,7 @@ Now you can begin connecting to a WIFI network. For this, you will need a wirele
 First, create a file in /etc/wpa_supplicant/ called wpa_supplicant.conf
 
 `sudo nano /etc/wpa_supplicant/wpa_supplicant.conf`
+
 Write the following into the file:
 
 
