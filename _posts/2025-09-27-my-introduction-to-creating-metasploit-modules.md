@@ -13,7 +13,7 @@ Disclaimer: Do not expose my vulnerable C program to any untrusted networks, as 
 ## The Goal
 My goal for this project was to challenge myself to create an exploit module in Ruby for the Metasploit Framework. This would help me understand the real exploit modules I will use in the future more clearly and make me appreciate the existing exploit developers for their knowledge and skills. 
 
-##Target Program
+## Target Program
 To create an exploit module, you need a service to exploit. I knew I would have to use C for low-level control over adding my own vulnerabilities (in the future, I'm hoping to expand on this project and learn to exploit the segmentation fault vulnerability to achieve RCE). 
 I was able to program the target service relatively quickly, and I decided to make my service simply print the local system date and time. I thought a nice way to include a CLI vulnerability would be to ask the user's name and use their name value inside an echo command, which would obviously allow for an easy command execution. 
 
