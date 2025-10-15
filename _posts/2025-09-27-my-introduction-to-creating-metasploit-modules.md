@@ -6,8 +6,7 @@ tags: Metasploit-Framework
 ---
 In this blog post, I briefly explain my introduction to developing exploit modules in Ruby with the Metasploit Framework. 
 I felt like I relied too much on Metasploit modules without fully even understanding how they're written, so to change that, I set out to create my own simple exploit module. 
-All source code for my target program and exploit module are available here:
-(https://github.com/Sviatko124/metasploit-challenge-project)
+All source code for my target program and exploit module are available here: [https://github.com/Sviatko124/metasploit-challenge-project](https://github.com/Sviatko124/metasploit-challenge-project)
 
 
 Note: I'm aware that I didn't use a built-in Metasploit payload and handler. I really tried, but with limited resources and tutorials available, I was only able to create a basic interactive shell. I hope to return to this project in the future and figure this part out someday. 
@@ -26,11 +25,11 @@ I was able to program the target service relatively quickly, and I decided to ma
 
 ## The Exploit Module
 Since I didn't know even a little bit of Ruby, I started off with the Ruby quickstart guide, which taught me the language basics:
-(https://www.ruby-lang.org/en/documentation/quickstart)
+[https://www.ruby-lang.org/en/documentation/quickstart](https://www.ruby-lang.org/en/documentation/quickstart)
 
 
 To get an introduction to the general structure of a Metasploit module, I checked the following guide:
-(https://www.offsec.com/metasploit-unleashed/building-module)
+[https://www.offsec.com/metasploit-unleashed/building-module](https://www.offsec.com/metasploit-unleashed/building-module)
 
 
 Other than that, I occasionally had to search for various things on the web, like how to make my command input/output part of the program. Luckily, I noticed similarities between Ruby's socket library and Python's socket library, and I could finish this part of the program more easily. I also *borrowed* some code from existing Metasploit modules. 
