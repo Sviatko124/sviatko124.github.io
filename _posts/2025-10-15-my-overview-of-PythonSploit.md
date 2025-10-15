@@ -8,7 +8,7 @@ In this blog post, I cover my journey on how I created the first version of Pyth
 
 I will present a high-level overview of my program and introduce future features I will try to add that will help improve my project. 
 
-The project discussed in this post is available at: (https://github.com/Sviatko124/PythonSploit)
+The project discussed in this post is available at: [https://github.com/Sviatko124/PythonSploit](https://github.com/Sviatko124/PythonSploit)
 
 Disclaimer: Please use this tool ethically. I do not take any responsibility for how you use this tool. This tool is intended to be primarily used in CTFs.
 Also, I only tested this tool locally. If you find any bugs, feel free to make an issue on the project page. 
