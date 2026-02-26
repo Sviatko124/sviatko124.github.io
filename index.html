@@ -9,7 +9,7 @@ title: Home
   <a href="https://github.com/sviatko124" target="_blank">GitHub</a>
 </nav>
 
-## Latest Posts
+<h2>Latest Posts</h2>
 
 <ul style="list-style: none; padding: 0;">
   {% for post in site.posts %}
@@ -21,11 +21,7 @@ title: Home
       <small>
         {{ post.date | date: "%B %d, %Y" }}
       </small>
-
-      <p>
-        {{ post.excerpt }}
-      </p>
-
+      
       <hr>
     </li>
   {% endfor %}
