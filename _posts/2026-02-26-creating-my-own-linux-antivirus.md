@@ -2,6 +2,7 @@
 layout: post
 date: 2026-02-26
 author: Sviatko124
+title: "Building a Linux Antivirus in C and Python"
 tags: Python C Antivirus
 ---
 Welcome to another one of my blog posts! In this entry, I’m introducing my new project the nature of which I feel is very important in today's computing landscape. Around October 2025, Windows 10 reached end-of-life (EoL), meaning it no longer receives security patches. This means that any new vulnerabilities found in Windows 10 would remain unfixed and leave people exposed. Together with other security concerns regarding Windows 11, many people began exploring Linux. I believe this is a good thing as people are becoming aware of and engaged with the technology they rely on daily. 
