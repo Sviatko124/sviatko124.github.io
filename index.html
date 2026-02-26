@@ -1,0 +1,32 @@
+---
+layout: default
+title: Home
+---
+
+<nav style="margin-bottom: 20px;">
+  <a href="/" style="margin-right: 15px;">Home</a>
+  <a href="/about" style="margin-right: 15px;">About</a>
+  <a href="https://github.com/sviatko124" target="_blank">GitHub</a>
+</nav>
+
+## Latest Posts
+
+<ul style="list-style: none; padding: 0;">
+  {% for post in site.posts %}
+    <li style="margin-bottom: 20px;">
+      <h2 style="margin-bottom: 0;">
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </h2>
+
+      <small>
+        {{ post.date | date: "%B %d, %Y" }}
+      </small>
+
+      <p>
+        {{ post.excerpt }}
+      </p>
+
+      <hr>
+    </li>
+  {% endfor %}
+</ul>
