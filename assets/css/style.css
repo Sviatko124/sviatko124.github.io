@@ -1,0 +1,18 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* bright green links */
+a {
+    color: #00dd00;
+}
+
+a:visited {
+    color: #00bb00;
+}
+
+a:hover {
+    color: #66ff66;
+    text-shadow: 0 0 5px #009960;
+}
