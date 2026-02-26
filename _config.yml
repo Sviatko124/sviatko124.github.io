@@ -1,3 +1,9 @@
 theme: jekyll-theme-hacker
 title: Cybersecurity Blog
 description: Documenting my IT/Cybersecurity projects
+
+sass:
+  style: compressed
+
+include:
+  - assets/css/style.css
