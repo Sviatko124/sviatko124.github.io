@@ -2,6 +2,7 @@
 layout: post
 date: 2025-10-15
 author: Sviatko124
+title: "My Overview Of PythonSploit"
 tags: Python PythonSploit
 ---
 In this blog post, I cover my journey on how I created the first version of PythonSploit, a Meterpreter-inspired tool designed to help make my workflow more efficient during CTFs. 
