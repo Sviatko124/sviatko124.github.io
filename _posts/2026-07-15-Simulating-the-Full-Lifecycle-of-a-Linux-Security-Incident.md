@@ -1,3 +1,9 @@
+---
+layout: post
+date: 2026-07-15
+author: Sviatko124
+tags: Incident-Response
+---
 ## Introduction
 
 One thing I noticed while learning cybersecurity is that most home lab projects focus on only one side of security. You either see penetration testing write-ups that end once root access is obtained, or defensive projects that analyze logs without showing how the attack actually happened.
