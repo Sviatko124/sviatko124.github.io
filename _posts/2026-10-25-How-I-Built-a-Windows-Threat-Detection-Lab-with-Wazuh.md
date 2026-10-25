@@ -2,7 +2,7 @@
 layout: post
 date: 2026-10-25
 author: Sviatko124
-tags: Active-Directory Threat-Detection Wazuh
+tags: Active-Directory Threat-Detection Wazuh SIEM
 ---
 
 ## Introduction
