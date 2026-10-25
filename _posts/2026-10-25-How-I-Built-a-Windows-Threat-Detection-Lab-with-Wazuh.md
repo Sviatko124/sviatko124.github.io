@@ -4,7 +4,8 @@ date: 2026-10-25
 author: Sviatko124
 tags: Active-Directory Threat-Detection Wazuh
 ---
-# How I Built a Windows Threat Detection Lab with Wazuh
+
+## Introduction
 
 What happens when someone enters the wrong password on a Windows computer? It might seem like a small event, but in cybersecurity, even a failed login can be worth investigating.
 
@@ -26,7 +27,7 @@ The goal was to demonstrate a practical example of how a SOC analyst might inves
 
 I performed two intentional failed logon attempts in the lab and then reviewed the resulting authentication failures in the Wazuh dashboard.
 
-![Wazuh dashboard displaying authentication failures](../images/active_directory_threat_detection_lab_authentication_failures.png)
+![Wazuh dashboard displaying authentication failures](https://github.com/Sviatko124/sviatko124.github.io/blob/main/assets/images/active_directory_threat_detection_lab_authentication_failures.png)
 
 Wazuh displayed the authentication failures, allowing me to examine the associated Windows security events and their details. One of the events was Windows Security Event ID **4625**, which indicates that a logon attempt failed. Wazuh generated an alert using rule `60122`, classifying the event as a logon failure involving an unknown username or incorrect password.
 
